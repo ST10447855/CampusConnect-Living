@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#123c35">
+<meta name="description" content="Enquire about sample student accommodation in Pretoria. Share your preferred area, room type, budget and move-in date.">
+<title>Student Accommodation Enquiry | Campus Connect Living</title>
+<meta name="robots" content="index, follow">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<!-- Main site header and responsive navigation -->
+<header class="site-header">
+<div class="container header-inner">
+<a class="brand" href="index.html">
+  <span class="brand-mark">CC</span>
+  <span class="brand-text"><strong>Campus Connect Living</strong><span>Your Home While You Study.</span></span>
+</a>
+<button class="menu-btn" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="main-nav">☰</button>
+<nav id="main-nav" class="nav" aria-label="Main navigation"><a class="" href="index.html">Home</a><a class="" href="about.html">About Us</a><a class="" href="accommodation.html">Accommodation</a><a class="active" href="enquiry.html">Enquiry</a><a class="" href="faq.html">FAQ</a><a class="" href="contact.html">Contact</a><a class="nav-cta" href="enquiry.html">Find a room</a></nav>
+</div>
+</header>
+<main>
+<!-- Page content -->
+<section class="page-hero"><div class="container"><span class="eyebrow">Tell us what you need</span><h1>Accommodation enquiry</h1><p>Complete the form so the type of accommodation you want, your budget and preferred area are clear.</p></div></section>
+<section class="content"><div class="container content-grid">
+<div class="panel">
+<form data-demo-form action="mailto:info@campusconnectliving.co.za" method="post" enctype="text/plain">
+<div class="form-grid">
+<div class="form-group"><label for="full-name">Full name *</label><input class="form-control" id="full-name" name="full-name" autocomplete="name" minlength="2" maxlength="80" required></div>
+<div class="form-group"><label for="email">Email address *</label><input class="form-control" id="email" name="email" type="email" autocomplete="email" maxlength="120" required></div>
+<div class="form-group"><label for="phone">Phone number *</label><input class="form-control" id="phone" name="phone" type="tel" autocomplete="tel" pattern="[0-9+()\s-]{7,20}" title="Enter a valid phone number using 7 to 20 digits or common phone symbols" required></div>
+<div class="form-group"><label for="institution">College / university *</label><input class="form-control" id="institution" name="institution" minlength="2" maxlength="120" required></div>
+<div class="form-group"><label for="study-level">Study level *</label><select class="form-control" id="study-level" required><option value="">Select</option><option>First Year</option><option>Second Year</option><option>Third Year</option><option>Final Year</option><option>Postgraduate</option></select></div>
+<div class="form-group"><label for="property-interest">Property of interest</label><input class="form-control" id="property-interest" name="property-interest" maxlength="120" placeholder="Optional"></div>
+<div class="form-group"><label for="preferred-area">Preferred area *</label><select class="form-control" id="preferred-area" required><option value="">Select</option><option>Hatfield</option><option>Brooklyn</option><option>Lynnwood</option><option>Arcadia</option><option>Sunnyside</option></select></div>
+<div class="form-group"><label for="room-type">Room type *</label><select class="form-control" id="room-type" required><option value="">Select</option><option>Private room</option><option>Shared room</option><option>Studio</option></select></div>
+<div class="form-group"><label for="budget">Monthly budget *</label><select class="form-control" id="budget" required><option value="">Select</option><option>Below R4,000</option><option>R4,000 – R5,000</option><option>R5,000 – R6,000</option><option>Above R6,000</option></select></div>
+<div class="form-group"><label for="move-date">Preferred move-in date</label><input class="form-control" id="move-date" type="date"></div>
+<div class="form-group full"><label for="requirements">Additional requirements</label><textarea class="form-control" id="requirements" name="requirements" maxlength="1000" placeholder="For example: Wi-Fi, furnished room, parking, close to public transport..."></textarea></div>
+<div class="form-group full"><p class="form-note">Submitting this prototype form demonstrates the enquiry flow. It does not create a real booking.</p><button class="btn btn-primary" type="submit">Submit enquiry</button></div>
+</div>
+<div class="form-success" role="status" aria-live="polite">Your enquiry details will be prepared in your email application. Review the information and press Send. Sample prices are indicative only; actual availability must be confirmed by a provider.</div>
+</form>
+</div>
+<aside class="panel"><div class="icon">?</div><h2>What happens next?</h2><p>We use your preferred area, room type and budget to understand what accommodation may suit you.</p><ol class="list"><li>Tell us your requirements.</li><li>Review suitable accommodation options.</li><li>Verify the property and rental information.</li><li>Arrange a viewing or contact the provider.</li></ol><div class="notice notice-spaced">Never send money solely because a listing or message asks you to. Verify the property and provider first.</div></aside>
+</div></section>
+</main>
+<!-- Shared site footer -->
+<footer class="footer">
+<div class="container footer-inner">
+  <div><a class="brand" href="index.html"><span class="brand-mark">CC</span><span class="brand-text"><strong class="footer-brand-name">Campus Connect Living</strong><span>Your Home While You Study.</span></span></a>
+  <p class="footer-intro">A student accommodation concept designed to make finding a suitable place to live in Pretoria simpler, safer and more convenient.</p></div>
+  <div><h3>Explore</h3><div class="footer-links"><a href="accommodation.html">Accommodation</a><a href="enquiry.html">Make an enquiry</a><a href="faq.html">FAQ</a><a href="about.html">About us</a></div></div>
+  <div><h3>Contact</h3><div class="footer-links"><a href="mailto:info@campusconnectliving.co.za">info@campusconnectliving.co.za</a><a href="tel:0120000000">012 000 0000</a><span>Pretoria, Gauteng, South Africa</span></div></div>
+</div>
+<div class="container footer-bottom">© 2026 Campus Connect Living. Academic prototype — accommodation details shown are sample project data.</div>
+</footer>
+<script src="js/script.js"></script>
+</body></html>

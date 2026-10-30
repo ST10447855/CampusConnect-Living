@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#123c35">
+<meta name="description" content="Search sample student accommodation in Hatfield, Brooklyn, Lynnwood, Arcadia and Sunnyside by room type and budget.">
+<title>Student Accommodation in Pretoria | Campus Connect Living</title>
+<meta name="robots" content="index, follow">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<!-- Main site header and responsive navigation -->
+<header class="site-header">
+<div class="container header-inner">
+<a class="brand" href="index.html">
+  <span class="brand-mark">CC</span>
+  <span class="brand-text"><strong>Campus Connect Living</strong><span>Your Home While You Study.</span></span>
+</a>
+<button class="menu-btn" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="main-nav">☰</button>
+<nav id="main-nav" class="nav" aria-label="Main navigation"><a class="" href="index.html">Home</a><a class="" href="about.html">About Us</a><a class="active" href="accommodation.html">Accommodation</a><a class="" href="enquiry.html">Enquiry</a><a class="" href="faq.html">FAQ</a><a class="" href="contact.html">Contact</a><a class="nav-cta" href="enquiry.html">Find a room</a></nav>
+</div>
+</header>
+<main>
+<!-- Page content -->
+<section class="page-hero"><div class="container"><span class="eyebrow">Pretoria student housing</span><h1>Find your accommodation</h1><p>Compare sample student accommodation options by area, room type and monthly budget. The listings below are project data for the Campus Connect Living prototype.</p></div></section>
+<section class="content" id="results"><div class="container">
+<div class="panel panel-spaced">
+<div class="section-head"><div><h2>Search and filter</h2><p>Use the filters to narrow down the sample listings.</p></div></div>
+<div class="filters">
+<div class="field"><label for="keyword-filter">Search</label><input id="keyword-filter" placeholder="e.g. Hatfield"></div>
+<div class="field"><label for="location-filter">Area</label><select id="location-filter"><option value="">All areas</option><option value="hatfield">Hatfield</option><option value="brooklyn">Brooklyn</option><option value="lynnwood">Lynnwood</option><option value="arcadia">Arcadia</option><option value="sunnyside">Sunnyside</option></select></div>
+<div class="field"><label for="type-filter">Room type</label><select id="type-filter"><option value="">All types</option><option value="private">Private room</option><option value="shared">Shared room</option></select></div>
+<div class="field"><label for="budget-filter">Max budget</label><select id="budget-filter"><option value="">Any</option><option value="4000">R4,000</option><option value="5000">R5,000</option><option value="6000">R6,000</option><option value="7000">R7,000</option></select></div>
+</div>
+<button id="clear-filters" class="btn btn-secondary" type="button">Clear filters</button>
+</div>
+<div class="results-meta"><span id="results-count"></span><span>Sample listings · Pretoria</span></div>
+<div id="property-list" class="cards"></div>
+<div id="no-results" class="no-results">No accommodation matches those filters. Try widening your budget or choosing another area.</div>
+<div class="notice notice-spaced"><strong>Safety reminder:</strong> These listings are fictional sample data for the academic prototype. Always verify real property information, ownership, rental terms and payment details before making a payment.</div>
+</div></section>
+</main>
+<div id="property-modal" class="modal" onclick="if(event.target===this)closeProperty()"><div class="modal-card"><div class="modal-image"></div><div class="modal-body"></div></div></div>
+<!-- Shared site footer -->
+<footer class="footer">
+<div class="container footer-inner">
+  <div><a class="brand" href="index.html"><span class="brand-mark">CC</span><span class="brand-text"><strong class="footer-brand-name">Campus Connect Living</strong><span>Your Home While You Study.</span></span></a>
+  <p class="footer-intro">A student accommodation concept designed to make finding a suitable place to live in Pretoria simpler, safer and more convenient.</p></div>
+  <div><h3>Explore</h3><div class="footer-links"><a href="accommodation.html">Accommodation</a><a href="enquiry.html">Make an enquiry</a><a href="faq.html">FAQ</a><a href="about.html">About us</a></div></div>
+  <div><h3>Contact</h3><div class="footer-links"><a href="mailto:info@campusconnectliving.co.za">info@campusconnectliving.co.za</a><a href="tel:0120000000">012 000 0000</a><span>Pretoria, Gauteng, South Africa</span></div></div>
+</div>
+<div class="container footer-bottom">© 2026 Campus Connect Living. Academic prototype — accommodation details shown are sample project data.</div>
+</footer>
+<script src="js/script.js"></script>
+</body></html>
